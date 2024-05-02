@@ -3,21 +3,21 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("94741897654")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
 global.github = 'https://github.com/yasiyaofc1/FORZEN-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94760018802'
+global.sudo = process.env.SUDO || '94741897654'
 global.devs = '94760018802';
 global.website = 'https://github.com/yasiyaofc1/FORZEN-MD' //wa.me/+94760018802
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0b5a7839e8ee21874921e.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'FORZEN MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'YASIYA OFC' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  ownername: process.env.OWNER_NAME === undefined ? 'M.R Rediya' : process.env.OWNER_NAME,
+  sessionName:  process.env.SESSION_ID === undefined ? 'FORZEN-MD;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUFnSnpYU0toMldpKzVkTEYyTUxrRDEwaCtabGNHNlFBanJybG9wM2lFOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaWtSOFo3enVnSGFEVFA5bFByLzU3K1NqOTdsN3FvYS9McDc5aERCaUR5VT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNQ3RhUVJQcEY1a1BjWW82Z0hucWNmS24zTFNlU1Yxc2ZkWTVURzdoMkdJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxcFRmck5nSzgrNmFTUlppUXFRbWg5Y2F5V3VodlhYUzUyZ0pEZ09sNHlBPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVPUzVNOGNqM2Z1R1hqR3ZjRjhxOWwveVdzZTdPQ1lMTHY4MHFDRmJ3bFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlUzSEg1QmNjdm1pWWorM2NtMWtsMy9Ickhjd2wwY0Y0Tm43ZEMrYUtxVm89In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ2bjUveUFoS3kvZndNWnZiNlN4ckcyaWNnMmI0anc2SmZBcFR2M3k3bXgrcmFreXdRYk9UZjZKd1l2QnpkdVBOUnh2ZUZLcUZLaU9IajZzZUFjTUZpQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjk1LCJhZHZTZWNyZXRLZXkiOiJYSitVUUQwRUx0THE5Um9CZ0JaV0IvWnkxbGU0U3ZBQVZzUHh0RldBdENZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJWckJqZzFNa1NGMm85aDhLWFgyZk1BIiwicGhvbmVJZCI6IjQwOTczYzRmLWNmMDAtNDMwMC1hMWI3LTAwYmMzZmViMjFhZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxcE1uUUQxOVoyZTBvWHBQVFBXNHZ1WDNvMlk9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IiszNUhZa1gvcmlVd2VYSWhxU2wySW9SRUt0Yz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0lEZGpla0dFS3pOekxFR0dBUWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IlVtYWNJRTlaZDkwdk1PTnc4Nk92WFZtZkZCSXN5cUdMbnN4L2k2VmtaUzg9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImtndSszUmYwK3Zqd1hya0NyY2VPV2ZzQm5zVjhlblU1NkQyMkM0Nm5lTmZ5czFNNmdaVUlwRXBYbUFGRVNhNDM2NkpoUTlQQzMrYW1ncm9oMzFCN0JRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJWOTF0ZVVWK084QmNIRmljUzd5eGIvNi8zNzNQc0RqeUN5Z0kybGtnc0ZidjVyTTU0NWV6ZC82MU9ONUswRVdyNk9GME53YkFuNnpSYVdLN1lTU21qQT09In0sIm1lIjp7ImlkIjoiOTQ3NDE4OTc2NTQ6MjNAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiLT7wnZCMLvCdkJF8fCDwnZCR8J2QhPCdkIPwnZCI8J2QmPCdkIA8LSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDc0MTg5NzY1NDoyM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJWSm1uQ0JQV1hmZEx6RGpjUE9qcjExWm54UVNMTXFoaTU3TWY0dWxaR1V2In19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE0NjI4MjcxLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUNSTyJ9' : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'YASIYA OFC' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'FORZEN MD' : process.env.PACK_INFO.split(";")[1],
